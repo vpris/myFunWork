@@ -1,0 +1,35 @@
+.form-control col-xl-6 searchThis {
+    z-index: 1000;
+}
+
+.searchString {
+    width: 820px;
+    margin: 30px auto;
+    height: 60px;
+}
+
+.searchThisBtn {
+    position: absolute;
+    margin: 0 749px;
+}
+
+.btn-outline-raiff:hover {
+    color: #fffc00;
+    background-color: #000;
+    border-color: #fffc00;
+}
+
+.btn-outline-raiff {
+    color: #000;
+    background-color: #fffc00;
+    border-color: #000;
+    width: 71px;
+}
+/*.searchBannerRaiff {
+    background: #086387;
+    width: 820px;
+    height: 170px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 8px;
+}*/

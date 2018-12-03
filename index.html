@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Raiff Searcher</title>
+
+        <link rel="stylesheet" href="css/bootstrap-grid.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.css"> <!-- Файл ребут Бутстрапа -->
+        <link rel="stylesheet" href="css/bootstrap.css">    <!-- Это основной файл стилей Бутстрапа -->
+        <link rel="stylesheet" href="css/all.min.css">  <!-- Это стили иконок FontAwesome -->
+        <link rel="stylesheet" href="css/reset.css">
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/all.min.js"></script>
+    </head>
+    <body>
+    <div class="searchString">
+        <div class="input-group-btn search-panel">
+        </div>
+        <form class="form-inline">
+            <select name="search_param" id="search_param" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                <option value="all">Весь поиск</option>
+                <option value="username">По-группе</option>
+                <option value="email">По-Продукту</option>
+                <option value="studentcode">Еще какой-то</option>
+            </select>
+            <input class="form-control col-xl-10 searchThis" type="text" placeholder="Начните вводить..." aria-label="Search">
+            <button class="btn btn-outline-raiff my-2 my-sm-0 searchThisBtn" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+    </body>
+</html>
