@@ -49,10 +49,17 @@
 }
 
 .shortStory2Title {
-    /* background: #005cbf; */
-    height: 30px;
+    background: rgba(0, 123, 255, 0.25);
+    height: 42px;
     padding: 0 10px;
     color: blueviolet;
+}
+.shortStory2TitleProduct {
+    float: left;
+}
+
+.shortStory2TitleGroups {
+    float: right;
 }
 
 .shortStory2Desc {
@@ -63,39 +70,39 @@
 }
 
 .shortStory2Images {
-    height: 80px;
+    height: 130px;
     background: #e2e2e2c9;
-    padding: 0 12px;
+    padding: 0 4px;
     overflow: scroll;
     overflow-x: auto;
 }
 
 .shortStory2Img1 {
-    height: 70px;
-    width: 100px;
+    height: 108px;
+    width: 190px;
     background: url("../images/window.png") no-repeat;
     background-size: 100% auto;
     float: left;
-    margin-right: 7px;
-    margin-top: 5px;
+    margin-right: 4px;
+    margin-top: 12px;
 }
 
 .shortStory2Img2 {
-    height: 70px;
-    width: 100px;
+    height: 108px;
+    width: 190px;
     background: url("../images/window.png") no-repeat;
     background-size: 100% auto;
     float: left;
-    margin-right: 7px;
-    margin-top: 5px;
+    margin-right: 4px;
+    margin-top: 12px;
 }
 
 .shortStory2Img3 {
-    height: 70px;
-    width: 100px;
+    height: 108px;
+    width: 190px;
     background: url("../images/window.png") no-repeat;
     background-size: 100% auto;
     float: left;
-    margin-right: 7px;
-    margin-top: 5px;
+    margin-right: 4px;
+    margin-top: 12px;
 }
