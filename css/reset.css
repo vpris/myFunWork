@@ -38,13 +38,13 @@
     /* width: 800px; */
     /* height: 166px; */
     background: #cccccc;
-    margin: 400px auto;
+    margin: 0 auto;
 }
 
 .shortStory2 {
     width: 800px;
     background: #cccccc2b;
-    margin: 250px auto;
+    margin: 10px auto;
     border-radius: 4px;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .shortStory2Images {
-    height: 130px;
+    max-height: 130px;
     background: #e2e2e2c9;
     padding: 0 4px;
     overflow: scroll;
